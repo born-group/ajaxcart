@@ -1,0 +1,9 @@
+{
+   "name": "Born - Magento Module",
+   "homepage": "https://github.com/born-group/ajaxcart",
+   "description": "Test",
+   "repositories": [
+        { "type": "vcs", "url": "https://github.com/born-group/ajaxcart.git" }
+    ],
+    "require-all": true
+}

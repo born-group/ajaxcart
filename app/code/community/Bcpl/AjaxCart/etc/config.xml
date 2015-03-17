@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Bcpl_AjaxCart>
+            <version>0.1.0</version>
+        </Bcpl_AjaxCart>
+    </modules>
+    <frontend>
+        <routers>
+            <ajaxcart>
+                <use>standard</use>
+                <args>
+                    <module>Bcpl_AjaxCart</module>
+                    <frontName>ajaxcart</frontName>
+                </args>
+            </ajaxcart>
+        </routers>
+        <layout>
+            <updates>
+                <ajaxcart>
+                    <file>ajaxcart.xml</file>
+                </ajaxcart>
+            </updates>
+        </layout>
+    </frontend>
+    <global>
+    	<helpers>
+    		<ajaxcart>
+    			<class>Bcpl_Ajaxcart_Helper</class>
+    		</ajaxcart>
+    	</helpers>
+    </global>
+    <adminhtml>       
+		<acl>
+			<resources>
+				<admin>
+					<children>
+						<system>
+							<children>
+								<config>
+									<children>
+										<ajaxcart translate="title" module="ajaxcart">
+											<title>Ajax Add To Cart</title>
+										</ajaxcart>
+									</children>
+								</config>
+							</children>
+						</system>
+					</children>
+				</admin>
+			</resources>
+		</acl>  
+	</adminhtml>
+</config>
