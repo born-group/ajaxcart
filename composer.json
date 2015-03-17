@@ -1,8 +1,8 @@
 {
-    "name": "borngroup/ajaxcart",
+    "name": "born-group/ajaxcart",
     "description": "Magento Plugin for add product to cart from category page and product page by using ajax developed by Born",
     "type": "magento-module",
-    "homepage": "http://github.groupfmg.com/fmgrepo/git/ajaxcart",
+    "homepage": "https://github.com/born-group/ajaxcart",
     "license": "OSL-3.0",
     "authors": [
         {
